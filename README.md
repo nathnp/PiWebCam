@@ -1,2 +1,3 @@
 # PiWebCam
-Old school web cam
+An old school web cam
+
