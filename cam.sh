@@ -3,8 +3,9 @@
 user="<USER>"
 server="<DOMAIN>"
 path="<PATH ENDING WITH />"
+cam="<CAM TEXT>"
 
-if ! lsusb | grep -q "Webcam"; then
+if ! lsusb | grep -q "$cam"; then
 	scp offline.jpg $user\@$server\:$path\cam.jpg
 	exit
 fi
