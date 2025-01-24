@@ -16,7 +16,7 @@ PiWebCam is an old school webcam script, that will upload an image from a webcam
 
 ![](/Assets/fig1.png)
 
-Replace <CAM TEXT> with your elected text.
+Replace \<CAM TEXT> with your elected text.
 
 3. Fill out server info
 
