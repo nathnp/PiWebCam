@@ -1,5 +1,9 @@
 #!/bin/bash
 
-scp offline.jpg nthp@nthp.me:/sites/cam/cam.jpg
+user="<USER>"
+server="<DOMAIN>"
+path="<PATH ENDING WITH />"
+
+scp offline.jpg $user\@$server\:$path\cam.jpg
 
 sudo halt
