@@ -1,8 +1,8 @@
 #!/bin/bash
 
-user="nthp"
-server="nthp.me"
-path="/sites/cam/"
+user="<USER>"
+server="<DOMAIN>"
+path="<PATH ENDING WITH />"
 
 if ! lsusb | grep -q "Webcam"; then
 	scp offline.jpg $user\@$server\:$path\cam.jpg
